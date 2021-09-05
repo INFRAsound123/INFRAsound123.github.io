@@ -1,0 +1,17 @@
+<style>
+    body{
+        background-color: black;
+    }
+        header{
+        font-family: sans-serif;
+        font-size: 20px;
+        }
+        
+        center{
+            color: yellow;
+        }
+        
+        main{
+            color: yellow;
+        }
+    </style>
