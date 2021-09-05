@@ -1,17 +1,12 @@
-<style>
-    body{
-        background-color: black;
-    }
-        header{
-        font-family: sans-serif;
-        font-size: 20px;
-        }
-        
-        center{
-            color: yellow;
-        }
-        
-        main{
-            color: yellow;
-        }
-    </style>
+body{
+background-color: black;
+}
+center{
+color: yellow;
+}
+main{
+color: yellow;
+}
+header{
+text-align: center;
+}
