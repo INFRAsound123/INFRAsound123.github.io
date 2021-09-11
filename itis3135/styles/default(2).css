@@ -32,3 +32,9 @@ body{
         th{
             background-color: #66023C;
         }
+a:link{
+            color: white;
+        }
+        a:visited{
+            color:red;
+        }
