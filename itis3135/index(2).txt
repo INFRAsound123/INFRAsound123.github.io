@@ -1,0 +1,171 @@
+<h>
+    <link href="styles/default(1).css" rel="stylesheet">
+
+<header>
+    <center>
+        <b>Mikiyas Solomon || Activity 2 </b>
+    </center>
+      <div class="NavigationBar">
+    <a href="index.html">Introduction</a>
+    <a href="index(2).html">Activity 2</a>
+    <a href="index(3).html">Activity 3</a>
+    <a href="#">About</a>
+    </div>
+</header>
+
+    
+
+<main>
+   <h3>My Tabular Data</h3>
+       <ol>
+           <li>Angel Milla</li>
+           <li>Alyssa Kennedy</li>
+           <li>Allison Jones</li>
+           <li>Taya Johnson</li>
+           <li>Nathan Reynolds</li>
+           <li>Brock Shortell</li>
+           <li>Christopher Luisa</li>
+       </ol>
+
+       <h3>Employee Data in Simple Table</h3>
+   <table>
+       <tr>
+           <th>Name</th>
+           <th>Email</th>
+           <th>Years of Service</th>
+       </tr>
+       <tr>
+           <td>Angel Milla</td>
+           <td>amilla8967@gmail.com</td>
+           <td>2</td>
+       </tr>
+       <tr>
+        <td>Alyssa Kennedy</td>
+        <td>Akennedy@yahoo.com</td>
+        <td>6</td>
+       </tr>
+       <tr>
+           <td>Allison Jones</td>
+           <td>aJones@outlook.com</td>
+           <td>10</td>
+       </tr>
+       <tr>
+           <td>Taya Johnson</td>
+           <td>TJaya12@gmail.com</td>
+           <td>5</td>
+       </tr>
+       <tr>
+           <td>Nathan Reynolds</td>
+           <td>Nrey8509@gmail.com</td>
+           <td>1</td>
+       </tr>
+       <tr>
+           <td>Brock Shortell</td>
+           <td>brockshortell@yahoo.com</td>
+           <td>20</td>
+       </tr>
+       <tr>
+           <td>Christopher Luisa</td>
+           <td>christopherluisa74@gmail.com</td>
+           <td>23</td>
+       </tr>
+   </table> 
+   
+   
+   
+   
+    <h3>Employee Data in Complex Table</h3>
+    <figure>
+   <table>
+       <tr>
+           <th>Degree</th>
+           <th>Marketing Skill</th>
+           <th>Sales</th>
+           <th>Name</th>
+           <th>Email</th>
+           <th>Years of Service</th>
+           <th>Monthly Salary</th>
+       </tr>
+       <tr>
+           <td>Bachelor</td>
+           <td>Average</td>
+           <td>$400</td>
+           <td>Angel Milla</td>
+           <td>amilla8967@gmail.com</td>
+           <td>2</td>
+           <td>$3,000</td>
+       </tr>
+       <tr>
+        <td>Bachelor</td>
+        <td>Average</td>
+        <td>$1,000</td>
+        <td>Alyssa Kennedy</td>
+        <td>Akennedy@yahoo.com</td>
+        <td>6</td>
+        <td>$5,500</td>
+       </tr>
+       <tr>
+           <td>Masters</td>
+           <td>Above Average</td>
+           <td>$3,000</td>
+           <td>Allison Jones</td>
+           <td>aJones@outlook.com</td>
+           <td>10</td>
+           <td>$10,000</td>
+       </tr>
+       <tr>
+           <td>Bachelor</td>
+           <td>Average</td>
+           <td>$650</td>
+           <td>Taya Johnson</td>
+           <td>TJaya12@gmail.com</td>
+           <td>5</td>
+           <td>$4500</td>
+       </tr>
+       <tr>
+           <td>Associate</td>
+           <td>Below Average</td>
+           <td>$250</td>
+           <td>Nathan Reynolds</td>
+           <td>Nrey8509@gmail.com</td>
+           <td>1</td>
+           <td>$1,200</td>
+       </tr>
+       <tr>
+           <td>Masters</td>
+           <td>Above Average</td>
+           <td>$8,000</td>
+           <td>Brock Shortell</td>
+           <td>brockshortell@yahoo.com</td>
+           <td>20</td>
+           <td>$14,000</td>
+       </tr>
+       <tr>
+           <td>Masters</td>
+           <td>Above Average</td>
+           <td>$9,200</td>
+           <td>Christopher Luisa</td>
+           <td>christopherluisa74@gmail.com</td>
+           <td>23</td>
+           <td>$17,000</td>
+       </tr>
+       <th>Total</th>
+       <th>Years of</th>
+       <th>Service</th>
+       <td></td>
+       <td></td>
+       <td>67</td>
+       <td>$55,200</td>
+   </table> 
+   <figcaption><center><i>Employee Information</center></figcaption>
+    </i></figure>
+    
+</main>
+    
+<footer>
+  <center> <b>Page built By Life Industries</b></center>
+</footer>
+
+
+
+</h>
