@@ -16,3 +16,9 @@
             color: yellow;
 	font-family: monospace;
         }
+a:link{
+            color: white;
+        }
+        a:visited{
+            color:red;
+        }
