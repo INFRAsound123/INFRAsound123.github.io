@@ -1,0 +1,27 @@
+body{
+        background-color: purple;
+    }
+        header,h{
+        font-family: sans-serif;
+        font-size: 20px;
+        }
+        
+        center{
+            color: yellow;
+        }
+        
+        main{
+            color: yellow;
+        }
+        h2,h1,h{
+            color:yellow;
+}
+a:link{
+            color: white;
+        }
+        a:visited{
+            color:orange;
+        }
+header{
+        background-color:#02394A;
+    }
