@@ -3,9 +3,9 @@ var i =0;
   
   
   
-  images[0]= 'pic1.jpg';
-  images[1]= 'pic2.jpg';
-  images[2] = 'pic3.png';
+  images[0]= 'images/pic1.jpg';
+  images[1]= 'images/pic2.jpg';
+  images[2] = 'images/pic3.png';
   
   function changeImg(){
     document.slideShow.src = images[i];
