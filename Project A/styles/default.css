@@ -4,7 +4,7 @@ html{
 }
 body{
         border: 10px solid black;
-        padding: 10px;
+        padding: 100px;
         background: rgba(0,206,209,0.7);
     }
     .NavigationBar {
@@ -12,7 +12,6 @@ body{
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .NavigationBar a {
   float: left;
   color: #f2f2f2;
@@ -22,13 +21,11 @@ body{
   font-size: 20px;
 }
 
-/* Change the color of links on hover */
 .NavigationBar a:hover {
   background-color: orange;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .NavigationBar active {
   background-color: #04AA6D;
   color: white;
@@ -40,3 +37,46 @@ p1,p2,p3,p4,ul{
   font-family:monospace;
 }
 
+img[alt="coding"] {
+   border: 10px solid yellow;
+        padding: 5px;
+}
+
+
+
+table,th,td{
+  border: 2px solid brown;
+  border-collapse:collapse;
+  
+}
+
+a:link{
+      color: white;
+}
+a:visited{
+    color:orange;
+}
+        
+#information{
+  color:blue;
+}
+
+h2{
+  color:maroon;
+  font-family: fantasy;
+  font-size: 34px
+}
+h1{
+  color:navy;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+#welcome{
+    font-weight: bold;
+
+  color:crimson;
+  text-align: center;
+  position:static;
+  font-family:"Optima", sans-serif;
+}
