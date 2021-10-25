@@ -25,3 +25,7 @@ a:link{
 header{
         background-color:#02394A;
     }
+
+p.solid{
+border-style: solid;
+}

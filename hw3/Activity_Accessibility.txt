@@ -94,15 +94,16 @@
       color and background color passes WCAG standard!</a>
   
 
-  <footer>
-  <center> </b></center>
-  <a href="https://jigsaw.w3.org/css-validator/check/referer">
-      <center><img src="images/valid-css-blue.png" width="88" height="31"></center>
-</a>
-<a href="https://validator.w3.org/check?uri=referer">
-	<center><img src="images/valid-html401.png" width="88" height="31"></center>
-</a>
-</footer>
+ 
 </main>
 </body>
+<footer>
+  <center> </b></center>
+  <a href="https://jigsaw.w3.org/css-validator/check/referer">
+      <img src="images/valid-css-blue.png" width="88" height="31">
+</a>
+<a href="https://validator.w3.org/check?uri=referer">
+	<img src="images/valid-html401.png" width="88" height="31">
+</a>
+</footer>
 </html>
