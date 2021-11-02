@@ -8,11 +8,9 @@
 	color: yellow;
         }
         
-        center{
-            color: yellow;
-        }
         
-        main{
+        
+        main,footer{
             color: yellow;
 	font-family: monospace;
         }
@@ -29,3 +27,18 @@ header{
 p.solid{
 border-style: solid;
 }
+
+h2,h1,footer,p1{
+    text-align: center;
+}
+
+ul{
+    text-align: left;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
