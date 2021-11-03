@@ -28,7 +28,7 @@ p.solid{
 border-style: solid;
 }
 
-h2,h1,footer,p1{
+h2,h1,footer,p1,figcaption{
     text-align: center;
 }
 
@@ -58,3 +58,6 @@ table{
         th{
             background-color: #66023C;
         }
+figcaption{
+    font-style: italic;
+}
