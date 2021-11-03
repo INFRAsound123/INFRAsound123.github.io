@@ -42,3 +42,19 @@ img {
   margin-right: auto;
 }
 
+table{
+            color: yellow;
+            border-collapse:collapse;
+            margin: 20px;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: .2em 1em .2em .5em;
+            
+        }
+        tbody tr:nth-child(even) td{
+            background-color: #301934;
+        }
+        th{
+            background-color: #66023C;
+        }
