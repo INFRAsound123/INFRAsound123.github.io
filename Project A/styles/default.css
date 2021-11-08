@@ -59,6 +59,9 @@ a:visited{
         
 #information{
   color:white;
+  margin-left: auto;
+    margin-right: auto;
+    width: 1em
 }
 
 h2{
@@ -93,8 +96,3 @@ img{
   margin-right: auto;
 }
 
-h4{
-  margin-left: auto;
-    margin-right: auto;
-    width: 1em
-}
