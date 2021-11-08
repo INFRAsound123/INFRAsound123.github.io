@@ -31,7 +31,7 @@ body{
   color: white;
 }
 
-p1,p2,p3,p4,ul{
+p,ul{
   color:#5e001f;
   font-size: 20px;
   font-family:monospace;
@@ -71,6 +71,7 @@ h1{
   text-decoration: underline;
   font-weight: bold;
   font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
 }
 #welcome{
     font-weight: bold;
@@ -79,4 +80,10 @@ h1{
   text-align: center;
   position:static;
   font-family:"Optima", sans-serif;
+}
+header{
+  font-style: italic;
+}
+footer{
+  text-align: center;
 }
