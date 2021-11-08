@@ -11,7 +11,15 @@
 <h2>C++ Basics</h2>
 <link href="styles/default.css" rel="stylesheet">
 
-<script src="scripts/slideshow.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="scripts/slideshow.js"></script>
+
+ 
+<!-- The script above belongs to bxslider-->
+
+ 
 
 
 
@@ -21,18 +29,20 @@
     </p1>
     <br><br>
     
-    <form onsubmit= "return changeImg()">
-      
       <figure>
-    <img src ="images/pic1.jpg" alt = "coding" name="slideShow" width="600" height="600">
+    <ul id="help"class="slideshow">
+  <li id="anchor1"><center><img src ="images/pic1.jpg" alt="codingpic1" width="1000" height="800"></center></li>
+  <li id="anchor2"><center><img src ="images/pic2.jpg" alt="codingpic2"width="1000" height="800"></center></li>
+  <li id="anchor3"><center><img src ="images/pic3.png" alt="codingpic3"width="1000" height="800"></center></li>
+
+  </ul>
     
     <figcaption><i>Here are some examples of C++ coding</i></figcaption>
     
     </figure>
     
-    <input id="input1" type = "submit" value="Next Pic">
     
-    </form>
+    
     
     <p2>C++ Resources:<br>
     <a href="https://www.guru99.com/cpp-programming-tutorial.html" target="_blank">C++ Lessons</a><br>
