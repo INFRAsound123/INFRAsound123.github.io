@@ -61,3 +61,26 @@ table{
 figcaption{
     font-style: italic;
 }
+
+.dropdown:hover .dropdown-content {display: block;}
+    .dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+        }
+        .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+.btn {background-color: black;
+    color: white;
+}
+        input{
+            font-family: monospace;
+            background-color: brown;
+            border: solid 1px #787878;
+            font-size: 20px;
+        }
