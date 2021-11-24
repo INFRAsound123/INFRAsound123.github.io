@@ -84,3 +84,8 @@ figcaption{
             border: solid 1px #787878;
             font-size: 20px;
         }
+        
+    #index{
+        font-size: 36px;
+        font-family: fantasy
+    }
