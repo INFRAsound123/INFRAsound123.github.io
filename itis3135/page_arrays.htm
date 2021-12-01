@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang ="en">
     <head>
-    <title>First Script, ITIS 3135, Mikiyas Solomon</title>
-     <link href="styles/default.css" rel="stylesheet">
-      
+    <title>Array,ITIS 3135,Mikiyas Solomon</title>
+        <link href="styles/default.css" rel="stylesheet">
+<script src="scripts/array.js"></script>
     </head>
 
     <header>
     <h1> <b>Mikiyas Solomon || ITIS-3135 </b></h1>
-     </header>
-   
+
+    </header>
     
     <div class="NavigationBar">
     <a href="index.htm">Home||</a>
@@ -27,30 +27,29 @@
 <a href="Activity_9.htm">||SlideShow||</a>
 <a href="contract.htm">||Contract||</a>
     </div>
-    
-    <script src="scripts/activity5script.js"></script>
-    <script src="scripts/alert.js"></script> 
 
-   
-    
-    
 <main>
-    
-<h2>Activity 5</h2>
 
-<p><button onclick="button1()">Internships</button></p>
-<p><button id="button2" onclick="button2()">Product</button></p>
-<img id="pic" src="images/pic2.jpg" alt="product" style="display:none;"/>
-<p><button onclick="button3()">Ways to deal with Heat</button></p>
-<p id ="text"></p>
-<p><button onclick="button4()">Calculate Salary for Job</button></p>
-<p><button onclick="button5()">More Info</button></p>
-<p><button onclick="script()">Script Check</button></p>
+<h2>Array</h2>
 
+<p><button onclick="addSalary()">Salary adder</button></p>
+<p><button onclick="displayResults()">Display Results</button></p>
+<p><button onclick="displaySalary()">Display Salary</button></p>
 
+<select id="myList" onchange="dropDown()">
+    <option></option>
+    <option>Allie</option>
+    <option>Jared</option>
+    <option>Angel</option>
+    <input type="button" id="button1" value="Add" onclick="addSalary()"></input>
+
+</select>
 
 
 </main>
+
+
+
 
 <footer>
     <b>Designed by Macho Yankee Salamander Inc. 2021</b>

@@ -20,8 +20,9 @@ a:link{
         a:visited{
             color:orange;
         }
-header{
+header,div{
         background-color:#02394A;
+        font-size:30px;
     }
 
 p.solid{
@@ -88,4 +89,18 @@ figcaption{
     #index{
         font-size: 36px;
         font-family: fantasy
+    }
+    
+    #project{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #home{
+        text-align:center;
+        display:block;
+    }
+    
+    h2{
+        text-decoration: underline;
     }
