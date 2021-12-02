@@ -104,3 +104,7 @@ figcaption{
     h2{
         text-decoration: underline;
     }
+    
+    nav{
+        font-size:20px;
+    }
