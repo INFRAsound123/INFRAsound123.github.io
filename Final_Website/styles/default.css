@@ -69,15 +69,8 @@ figcaption{
   font-style:italic;
 }
 
-#management {
-  display: block;
-  margin-left: inherit;
-  
-}
 
-#management1{
-  display:block;
-  margin-right: inherit;
-float:top;
-  
+
+a{
+  color:blue;
 }
