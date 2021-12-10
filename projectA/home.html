@@ -1,0 +1,65 @@
+<div id="intro">Computer Programming</div>
+<!DOCTYPE html>
+<html>
+    
+	<head>
+		<meta charset="UTF-8">
+	    <link href="styles/index.css" rel="stylesheet" type="text/css">
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("div").animate({top: '400px'},"slow");
+                $("div").animate({fontSize: '5em'},"slow");
+            });
+        </script>
+	</head>
+
+    <title> Jonathan Painter, ITIS 3135, Home Page</title>
+    <body>
+        <h1>Home Page</h1>
+        <nav>
+			<a href="home.html">Home</a> <a href="c.html">C</a> <a href="java.html">Java</a> <a href="javascript.html">JavaScript</a> <a href="python.html">Python</a>
+		</nav>
+        <h2>Programming Languages</h2>
+        <p>
+            Programming languages allow us to give instructions to a computer in a way the computer will understand. <br>
+            The language that a computer understands is called binary, and the process of translating programming language <br>
+            to binary is known as compiling. There are many different programming languages, which each have their own<br>
+            distinct features but all share common attributes. These languages allow computers to qucikly process information written <br>
+            through code. We are going to talk about 4 different programming languages that will be discussed is C, Java, JavaScript, and Python.
+        </p>
+        <h2>Syntax</h2>
+        <p>
+            The syntax of a programming lanugage dsescribes which strings of characters that makeup a program. Syntax is  <br>
+            important so that the programmers can write valid programs. Wtihout syntax, the semantics of a code is nearly impossible to <br>
+            understand. Every language has its own set of rules that make up its basic synax. Here are some of the examples or basic syntax: <br>
+            <ul>
+				<li>Case Sensitive: Indentiers such as world and World have different meanings</li>
+				<li>Class Names: Some languages requre that firest letter of  each word in class names be upper case</li>
+				<li>Program Filenames: The name of a program file must match the class name with the extension.</li>
+			</ul>
+        </p>
+        <h2>RAPTOR Flowchart Application</h2>
+        <p>RAPTOR is a flowchart-based programming environment designed to help student visualize their algorithms without focusing <br>
+            on the syntax of the program. RAPTOR programs are cretaed visually and exectuted visually by tracking the execution throught <br>
+            a flowchart. Flowchart's are easier for the mind to undertand while looking at as opposed to looking at lines of code and <br>
+            not being able to focus on the functionality of the program.
+
+        </p>
+        <img src="images/raptor_picture.gif" width= "500" height="200" >
+        <form>
+            <input type="button" onclick="window.location.href='https://raptor.martincarlisle.com';" value="Download RAPTOR" />
+          </form>
+    </body>
+    <footer>
+        <h4> Page built by Jonathan Painter</h4>
+        
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjpaint15.github.io%2FprojectA%2Findex.html">
+            <img src="images/button-valid-html5.gif" width= "88" height="31" alt="Link to HTML validator">
+        </a>
+        <a
+            href= "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjpaint15.github.io%2FprojectA%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+            <img src="images/button-valid-css.gif" width= "88" height="31" alt="Link to HTML validator">
+    </footer>
+</html>
