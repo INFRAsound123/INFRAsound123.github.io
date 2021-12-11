@@ -2,7 +2,7 @@ function loadDoc1() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("help").innerHTML =
+      document.getElementById("info").innerHTML =
       this.responseText;
     }
   };
