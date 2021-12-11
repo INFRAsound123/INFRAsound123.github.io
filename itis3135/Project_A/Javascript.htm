@@ -16,15 +16,15 @@
 </h3>
 <h2>Javascript Basics</h2>
 <link href="styles/default.css" rel="stylesheet">
+<script src="scripts/autoconvert.js"></script>
 
 <script src="scripts/table.js"></script>
 
+<!-- Information in autoconvert.txt comes from the website https://javascript.info/intro -->
 
 
 
-
-
-<main>
+<main id="main">
     
     <p>
       
@@ -37,15 +37,26 @@
 <p>Here are some developers who share their knowledge with their community go take a look at what they have posted</p>
 <br><br>
 
-<button type="button" onclick="loadDoc()">Get Javascript Developers</button>
+<button type="button" aria-label="click" onclick="loadDoc()">Get Javascript Developers</button>
 <br><br>
 <table id="information"></table>
     
     
+  <h2>Javascript Help</h2>  
+  
+  <p>If you prefer coding in another computer language then that is also possible, there is a wide variety of programs that allow you to convert your code from a different language into javascript to find more about these programs click on the button below</p>
+  <br><br>
+  
+  <button type="button" aria-label="click" onclick="loadDoc1()">Get AutoConvert Programs</button>
+  <br><br>
+  <table id="help"></table>  
+    
+    
 </main>
-<br><br>
+<br><br><br><br>
 
 <footer>
+  <p id="footer">Website Developed by Mikiyas Solomon</p>
   <a href="https://jigsaw.w3.org/css-validator/check/referer">
       <img src="images/valid-css-blue.png" width="88" height="31" alt="css">
 </a>

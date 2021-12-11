@@ -96,3 +96,12 @@ img{
   margin-right: auto;
 }
 
+#footer{
+  font-style: italic;
+  font-weight:bold;
+}
+
+#main{
+  width:100em;
+  height:100em;
+}
