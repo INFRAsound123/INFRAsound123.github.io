@@ -1,0 +1,107 @@
+html{
+  background:url(../images/programming.jpg);
+  background-size: 100% 100%;
+}
+body{
+        border: 10px solid black;
+        padding: 100px;
+        background: rgba(0,206,209,0.7);
+    }
+    .NavigationBar {
+  background-color: black;
+  overflow: hidden;
+}
+
+.NavigationBar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.NavigationBar a:hover {
+  background-color: orange;
+  color: black;
+}
+
+.NavigationBar active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+p,ul{
+  color:#5e001f;
+  font-size: 20px;
+  font-family:monospace;
+}
+
+img[alt="coding"] {
+   border: 10px solid yellow;
+        padding: 5px;
+}
+
+
+
+table,th,td{
+  border: 2px solid brown;
+  border-collapse:collapse;
+  
+}
+
+a:link{
+      color: white;
+}
+a:visited{
+    color:orange;
+}
+        
+#information{
+  color:white;
+  margin-left: auto;
+    margin-right: auto;
+    width: 1em
+}
+
+h2{
+  color:maroon;
+  font-family: fantasy;
+  font-size: 34px
+}
+h1{
+  color:navy;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+}
+#welcome{
+    font-weight: bold;
+
+  color:crimson;
+  text-align: center;
+  position:static;
+  font-family:"Optima", sans-serif;
+}
+header{
+  font-style: italic;
+}
+footer,#youtube{
+  text-align: center;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer{
+  font-style: italic;
+  font-weight:bold;
+}
+
+#main{
+  width:100em;
+  height:100em;
+}
